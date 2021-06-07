@@ -3,6 +3,7 @@ __pycache__
 .vscode
 .ipynb_checkpoints
 .env
+twitteranalysis.egg-info/
 
 # macOS specific
 **/.DS_Store
