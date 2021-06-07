@@ -10,6 +10,7 @@ dependencies:
   - astunparse=1.6.3=pyhd8ed1ab_0
   - async-timeout=3.0.1=py_1000
   - attrs=21.2.0=pyhd8ed1ab_0
+  - autopep8=1.5.7=pyhd8ed1ab_0
   - blinker=1.4=py_1
   - brotlipy=0.7.0=py38h5406a74_1001
   - c-ares=1.17.1=h0d85af4_1
@@ -70,6 +71,7 @@ dependencies:
   - py=1.10.0=pyhd3deb0d_0
   - pyasn1=0.4.8=py_0
   - pyasn1-modules=0.2.7=py_0
+  - pycodestyle=2.7.0=pyhd8ed1ab_0
   - pycparser=2.20=pyh9f0ad1d_2
   - pyjwt=2.1.0=pyhd8ed1ab_0
   - pyopenssl=20.0.1=pyhd8ed1ab_0
@@ -113,4 +115,4 @@ dependencies:
   - yarl=1.6.3=py38h5406a74_1
   - zipp=3.4.1=pyhd8ed1ab_0
   - zlib=1.2.11=h7795811_1010
-prefix: ml-env
+prefix: /Users/nosaka/opt/miniconda3/envs/ml-env
