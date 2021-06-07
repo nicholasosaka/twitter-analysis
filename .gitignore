@@ -1,1 +1,8 @@
+# directories
+__pycache__
+.vscode
+.ipynb_checkpoints
 .env
+
+# macOS specific
+**/.DS_Store
