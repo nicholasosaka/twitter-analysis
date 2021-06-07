@@ -4,6 +4,7 @@ __pycache__
 .ipynb_checkpoints
 .env
 twitteranalysis.egg-info/
+.pytest_cache
 
 # macOS specific
 **/.DS_Store
