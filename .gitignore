@@ -5,6 +5,7 @@ __pycache__
 .env
 twitteranalysis.egg-info/
 .pytest_cache
+tweet-venv/
 
 # macOS specific
 **/.DS_Store
