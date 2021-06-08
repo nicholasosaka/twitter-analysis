@@ -1,22 +1,23 @@
 import os
-from dotenv import dotenv_values
+from dotenv.main import load_dotenv
+import os
 
 
 class AppConfig:
-    def __init__(self, envfile):
-        self.config = dotenv_values(envfile)
+    def __init__(self):
+        self.config = load_dotenv()
 
     def get_api_key(self):
-        return self.config.get("API_KEY")
+        return os.getenv("API_KEY")
 
     def get_api_secret_key(self):
-        return self.config.get("API_SECRET_KEY")
+        return os.getenv("API_SECRET_KEY")
 
     def get_bearer_token(self):
-        return self.config.get("BEARER_TOKEN")
+        return os.getenv("BEARER_TOKEN")
 
     def get_access_token(self):
-        return self.config.get("ACCESS_TOKEN")
+        return os.getenv("ACCESS_TOKEN")
 
     def get_access_secret_token(self):
-        return self.config.get("ACCESS_TOKEN_SECRET")
+        return os.getenv("ACCESS_TOKEN_SECRET")
