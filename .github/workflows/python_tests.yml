@@ -38,5 +38,4 @@ jobs:
           ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
           ACCESS_TOKEN_SECRET: ${{secrets.ACCESS_TOKEN_SECRET}}
         run: |
-          source ./tweet-venv/bin/activate && python -m pip install pytest
-          pytest
+          source ./tweet-venv/bin/activate && pytest
