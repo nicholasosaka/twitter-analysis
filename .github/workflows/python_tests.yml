@@ -20,9 +20,6 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install -r requirements.txt
-      - name: Run setup script for develop
-        run: |
-          python setup.py develop
   lint:
     needs: setup
     runs-on: ubuntu-latest
@@ -42,6 +39,9 @@ jobs:
     strategy:
       max-parallel: 5
     steps:
+      - name: Run setup script for develop
+        run: |
+          python setup.py develop
       - name: Test with pytest
         env:
           API_KEY: ${{secrets.API_KEY}}
